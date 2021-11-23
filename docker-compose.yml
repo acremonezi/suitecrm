@@ -15,7 +15,7 @@ services:
   suitecrm:
     image: docker.io/bitnami/suitecrm:7
     ports:
-      - '8079:8080'
+      - '80:8079'
       #- '443:8443'
     environment:
       - SUITECRM_DATABASE_HOST=mariadb
